@@ -51,7 +51,7 @@ const CheckoutPrice = ({ setOrderPlace }) => {
       currency: "INR",
       name: "watchenvy",
       description: "Thank you for shopping with us",
-      image: "https://github.com/iamtoufiq",
+      image: "https://github.com/imtoufiq2?tab=repositories",
       handler: function (response) {
         const orderData = {
           _id: uuid(),

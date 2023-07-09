@@ -83,7 +83,7 @@ const Home = () => {
           <p className="footer-creator">
             Developed by{" "}
             <a
-              href="https://github.com/iamtoufiq"
+              href="https://github.com/imtoufiq2?tab=repositories"
               target="_blank"
               rel="noreferrer"
             >
@@ -92,7 +92,7 @@ const Home = () => {
           </p>
           <div className="footer-url" rel="noopener">
             <a
-              href="https://github.com/iamtoufiq"
+              href="https://github.com/imtoufiq2?tab=repositories"
               target="_blank"
               rel="noreferrer"
             >
