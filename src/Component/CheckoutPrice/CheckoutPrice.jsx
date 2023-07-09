@@ -49,7 +49,7 @@ const CheckoutPrice = ({ setOrderPlace }) => {
       key: "rzp_test_OQzZny6NbR8gus",
       amount: totalAmt * 100,
       currency: "INR",
-      name: "watch",
+      name: "watchenvy",
       description: "Thank you for shopping with us",
       image: "https://github.com/iamtoufiq",
       handler: function (response) {
