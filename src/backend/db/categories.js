@@ -1,4 +1,7 @@
 import { v4 as uuid } from "uuid";
+import SportsWatch from "../../Assets/Category/Sports Watch.png";
+import LuxuryWatch from "../../Assets/Category/Luxury Watch.png";
+import SmartWatch from "../../Assets/Category/Smart Watch.png";
 
 /**
  * Category Database can be added here.
@@ -8,20 +11,23 @@ import { v4 as uuid } from "uuid";
 export const categories = [
   {
     _id: uuid(),
-    categoryName: "fiction",
+    categoryName: "Sports Watch",
     description:
-      "literature in the form of prose, especially novels, that describes imaginary events and people",
+      "Active lifestyles, offering durability and specialized features.",
+    image: SportsWatch,
   },
   {
     _id: uuid(),
-    categoryName: "non-fiction",
+    categoryName: "Luxury Watch",
     description:
-      "Non-fiction is writing that gives information or describes real events, rather than telling a story.",
+      "Premium materials and craftsmanship, embodying elegance and status.",
+    image: LuxuryWatch,
   },
   {
     _id: uuid(),
-    categoryName: "horror",
+    categoryName: "Smart Watch",
     description:
-      "Meant to cause discomfort and fear for both the character and readers, horror writers often make use of supernatural and paranormal elements in morbid stories that are sometimes a little too realistic.",
+      "Innovative and Advanced features for connectivity and convenience.",
+    image: SmartWatch,
   },
 ];
